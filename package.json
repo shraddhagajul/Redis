@@ -1,0 +1,28 @@
+{
+  "name": "redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shraddhagajul/Redis.git"
+  },
+  "author": "Shraddha Gajul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shraddhagajul/Redis/issues"
+  },
+  "homepage": "https://github.com/shraddhagajul/Redis#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "dependencies": {
+    "ioredis": "^4.28.3",
+    "nodemon": "^2.0.15"
+  }
+}
